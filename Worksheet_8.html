@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worksheet 08: Collections in Java</title>
+    <style>
+        /* Main styles for body and layout */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+            max-width: 800px; /* Adjusts the width for A4 sizing */
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        header p {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #2c3e50;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        h2, p {
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        ul,
+        ol {
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        pre {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-left: 4px solid #2c3e50;
+            overflow-x: auto;
+            margin-bottom: 20px;
+            font-size: 14px;
+            max-width: 100%;
+            white-space: pre-wrap; /* Wrap code lines for better print formatting */
+            word-wrap: break-word; /* Prevents long words from overflowing */
+            border-radius: 4px;
+        }
+
+        code {
+            font-family: "Courier New", Courier, monospace;
+            color: #d63384;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #888;
+            border-top: 1px solid #ddd;
+        }
+
+        @media print {
+            body {
+                max-width: 100%;
+                margin: 0;
+                padding: 0;
+                background-color: #fff;
+            }
+
+            header,
+            footer {
+                page-break-before: always;
+                page-break-after: always;
+            }
+
+            pre {
+                max-width: 100%;
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>SE2012: Object-Oriented Analysis and Design</p>
+        <p>Worksheet 08: Collections in Java</p>
+        <p>2024 Semester 2 | Year 2, Semester 1</p>
+    </header>
+    
+<h2>Exercise 1</h2>
+<p>Create an integer ArrayList object. Check if the array list is empty or not. If ArrayList is not empty, add 10 numbers. The numbers must be taken as keyboard inputs. Access each element of the ArrayList and calculate the total. Print the 10 numbers.</p>
+<p><strong>Hint:</strong> Look into the methods provided by ArrayList to check if it's empty and to add elements.</p>
+
+<h2>Exercise 2</h2>
+<p>Create a Student Object with studentID, Name, and GPA.</p>
+<p>Create an ArrayList called StudentList and make use of the Collection Interface to add 3 Student Objects to the ArrayList. Ensure that no other types of data can be added to this StudentList.</p>
+<p>Display all the Student details by iterating through the StudentList.</p>
+<p><strong>Hint:</strong> Use generics to restrict the type of data that can be added to the list. Also, consider using a loop to display all student details.</p>
+
+<h2>Exercise 3</h2>
+<p>You are required to input details of the heights of students in a class and display only the unique heights of the students.</p>
+<p>Use an appropriate collection class, store input details of 10 heights of students and display only the unique heights.</p>
+<p><strong>Hint:</strong> Think about which collection in Java does not allow duplicate values. That should help you store only unique heights.</p>
+
+<h2>Exercise 4</h2>
+<p>You are required to store the student objects that you have created in Exercise 2 so that they can be directly accessed by student number.</p>
+<p>Use an appropriate collection class, and store the student objects so that they can be directly accessed by the student number.</p>
+<p>Input a student number and directly access details of that particular student using the collection object used.</p>
+<p><strong>Hint:</strong> Consider using a key-value pair collection to store student objects, where the key is the student number.</p>
+
+</body>
+</html>
